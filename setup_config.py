@@ -11,8 +11,8 @@ def encrypt(data):
     ct += encryptor.finalize()
     return b64encode(ct).decode()
 
-TOKEN = "Bot MTA4MDgxMTIxNDAxMzIxMDY1NQ.GsicEI.l7FMAOq24qJD941OU-eV8MVLIaIzn7UxX8Tm0w" #change 
-CHANNEL_ID = "1080810331309346908" #change
+TOKEN = "Bot MTQ3NDU5Njg3MzgyNTQyMzQ1MA.GWRlq7.tI6ScU-krnRYAX3zV-fRXyPcONx8bmCiLnD1Oc" #change 
+CHANNEL_ID = "862820004734435329" #change
 
 RC4Key = urandom(16).hex()
 
